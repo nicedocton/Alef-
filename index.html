@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+		rel="stylesheet"
+	/>
+	<link rel="stylesheet" href="css/style.min.css" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="notification">
+				<div class="notification__container"></div>
+			</div>
+			<header class="header">
+	<div class="header__content _container">
+		<div class="icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<a href="" class="header__logo">
+			<img src="assets/img/logo.svg" alt="logo" />
+		</a>
+		<div class="header__menu menu">
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li><a class="menu__link" href="#">Main</a></li>
+					<li>
+						<a class="menu__link" href="#">Gallery</a>
+					</li>
+					<li><a class="menu__link" href="#">News</a></li>
+					<li>
+						<a class="menu__link" href="#">Profile</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div
+			class="header__actions actions-header"
+			data-move="menu__body,1,768"
+			data-move-index="0"
+		>
+			<a href="tel:+544349000000" class="actions-header__phone">
+				+544 3490 00000
+			</a>
+			<div class="actions-header__text">Звони скорее!</div>
+		</div>
+	</div>
+</header>
+
+			<main class="page">
+				<div class="banner">
+					<div class="banner__container _container">
+						<h1 class="h1">Найдено 349 котов</h1>
+					</div>
+				</div>
+				<section class="products">
+					<div class="products__content _container">
+						<div class="sort-menu">
+							<p>Сортировать по:</p>
+							<a
+								class="sort-menu__btn"
+								data-sort="price"
+								href="#"
+							>
+								Цене
+								<i class="caret"></i>
+							</a>
+							<a class="sort-menu__btn" data-sort="age" href="#">
+								Возрасту
+								<i class="caret"></i>
+							</a>
+						</div>
+						<!-- <div class="products__wrapper">
+							<div
+								class="products__item product"
+								data-price="50000"
+								data-age="2"
+							>
+								<div class="product__header">
+									<div class="product__header__img">
+										<img
+											src="./assets/img/cat1.png"
+											alt=""
+										/>
+									</div>
+									<div class="product__header__status"></div>
+									<div class="product__header__sale">-40</div>
+								</div>
+								<div class="product__text">
+									<div class="product__title">
+										Кот полосатый
+									</div>
+									<div class="product__info">
+										<div class="product__info__color">
+											Коричневый окрас
+										</div>
+										<div class="product__info__age">
+											<span>2 мес.</span>
+											Возраст
+										</div>
+										<div class="product__info__paws">
+											<span>4</span>
+											Кол-во лап
+										</div>
+									</div>
+									<div class="product__price">50000 руб.</div>
+								</div>
+								<a href="#" class="product__button">Купить</a>
+							</div>
+						</div> -->
+						<div class="products__wrapper"></div>
+						<a href="#" class="btn-more">Показать еще 20</a>
+					</div>
+				</section>
+			</main>
+			<a href="#top" class="toTopBtn" data-easing="easeOutQuad">
+				<span></span>
+			</a>
+			<footer class="footer">
+	<div class="footer__content _container">
+		<div class="footer__column">
+			<div class="h2">Успей купить!</div>
+			<p>Подпишись и успей словить все акции</p>
+		</div>
+		<div class="footer__column">
+			<form action="#" class="form subscribe__form form-subscribe">
+				<div class="form-subscribe__column">
+					<div class="form-subscribe__input">
+						<input
+							autocomplete="off"
+							type="email"
+							name="form[]"
+							placeholder="Email"
+							class="input"
+						/>
+					</div>
+					<label class="checkbox">
+						Подписаться на новости
+						<input type="checkbox" />
+						<span class="checkmark"></span>
+					</label>
+				</div>
+				<div class="form-subscribe__column">
+					<button type="submit" class="form-subscribe__btn btn">
+						Подписаться
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</footer>
+
+		</div>
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
